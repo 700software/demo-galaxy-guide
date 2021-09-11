@@ -92,15 +92,15 @@ Special Features
 
  * Information can be input in reverse order of the original spec. Instead of:
 
-   > glob is I
+   > glob is I  
    > glob glob Silver is 34 Credits
 
    The code supports this as well:
 
-   > glob glob Silver is 34 Credits
+   > glob glob Silver is 34 Credits  
    > glob is I
 
-   which obviously adds some complexity to the application, but a merchant cannot choose the order in which he gathers intel about the galaxy. 🙂
+   which — being in the wrong order — obviously adds some complexity to the application, but a merchant cannot choose the order in which he gathers intel about the galaxy. 🙂
 
  * There's only one unit test so far. Probably the most important one, but more could be added.
 
