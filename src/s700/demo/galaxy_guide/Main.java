@@ -14,6 +14,7 @@ public class Main {
             DemoGalaxyGuide guid = new DemoGalaxyGuide();
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             for (String line; (line = br.readLine()) != null; ) {
+                System.out.println(guid.query(line, true));
             }
         } catch (IOException e) {
             System.err.println("Whoops! " + e);
