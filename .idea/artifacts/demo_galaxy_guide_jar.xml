@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="demo-galaxy-guide:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo_galaxy_guide_jar</output-path>
+    <root id="archive" name="demo-galaxy-guide.jar">
+      <element id="module-output" name="demo-galaxy-guide" />
+    </root>
+  </artifact>
+</component>
